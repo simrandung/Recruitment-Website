@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem ;
+    font-family: 'Caprasimo', cursive;
+    color: black;
+}
+
+.nav-link{
+    color: black
+}
+
+.nav-link:hover{
+
+    color: black;
+    transition: 0.3s;
+}
+.nav-item{
+    color: black;
+    font-weight: 500;
+    padding-left: 35px;
+}
+
+.btn0{
+    height: 50px;
+    width: 80px;
+    outline: none;
+    border-radius: 25px  ;
+    color: black;
+    cursor: pointer;
+    transition: all 0.4s ;
+    background-color: #C4C4C4;
+}
+
+.btn0:hover{
+    background: gray;
+    transition: all 0.4s;
+}
+
+.btn1{
+    height: 50px;
+    width: 80px;
+    outline: none;
+    border-radius: 25px  ;
+    color: black;
+    cursor: pointer;
+    transition: all 0.4s ;
+    background-color: #C4C4C4;
+
+}
+.btn1:hover{
+    background: white;
+    transition: all 0.4s;
+}
+
+.main{
+    background: url(./pic2.png)no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+
+}
+
+.main h1{
+    padding-left: 650px;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Caprasimo', cursive;
+    font-weight: 600;
+    color: black;
+}
+
+
+.red{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.ceta h1{
+    font-size: 3.5rem;
+}
+
+.ceta .card:hover{
+    color: purple;
+    cursor: pointer;
+    transition: all o.3s;
+    box-shadow: 17px -10px 45px -10px rgba(0,0,0,0.79);
+-webkit-box-shadow: 17px -10px 45px -10px rgba(0,0,0,0.79);
+-moz-box-shadow: 17px -10px 45px -10px rgba(0,0,0,0.79);
+}
+
+
+.resume{
+    background: url(cate1/woman.jpg)no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width:100%
+}
+
+.resume h1{
+    font-size: 3.8rem;
+}
+
+.footer{
+    background: rgb(196, 33, 255);
+    color: white;
+}
+
+.footer p{
+    margin: small;
+    color: whitesmoke;
+    font-size: 3.5rem ;
+
+}
+.all{
+    font-size: 1rem;
+    text-align: center;
+}
+.box-area{
+    width: 930px ;
+}
+
+.box-area{
+    width: 930px;
+}
+/*------------ Right box ------------*/
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+/*------------ Custom Placeholder ------------*/
+::placeholder{
+    font-size: 16px;
+}
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+/*------------ For small screens------------*/
+@media only screen and (max-width: 768px){
+     .box-area{
+        margin: 0 10px;
+     }
+     .left-box{
+        height: 100px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+ }
